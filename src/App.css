@@ -1,0 +1,152 @@
+/* This file used for all css for the UI in the this application*/
+/*App class for whole application*/
+.App {
+  text-align: center;
+  background-color:whitesmoke;
+  font-family: cursive;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* .maintitle{
+  background-color: bisque;
+} */
+
+/* css effects of card view  */
+.card{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+  /* display: flex !important; */
+  /* justify-content:space-around !important; */
+  width: 1020px;
+  background-color:bisque !important;
+  
+}
+
+.card-body{
+  margin-left: 20%;
+  margin-right: 20%;
+  /* padding-left: 40px; */
+  /* justify-content:center !important; */
+  background-color:bisque !important;
+  color:black;
+  /* min-width: 10px !important; */
+  /* width: fit-content !important; */
+}
+
+.card-title{
+  margin-top: 0.7em !important;
+}
+/* table for to look content in the rows and column    */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr,th {
+  /* background-color: #4CAF50; */
+  color: black;
+}
+/* css effects for ratings view */
+.ratingtable{
+  padding: 30px !important;
+  flex-direction: row;
+  background-color:bisque;
+  font-size: 100%;
+  justify-content: left;
+-webkit-box-shadow: 7px 0px 13px 0px bisque;
+-moz-box-shadow: 7px 0px 13px 0px bisque;
+box-shadow: 7px 0px 13px 0px rgba(0,0,0,0.75);
+border-collapse: collapse;
+}
+.rowratingtable{
+  color: black;
+}
+.colratingtable{
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+/* css effects  for star */
+.star{
+  margin-top: 1px;
+  /* padding-top: 5px; */
+  font-size: 150%;
+  width: 1.1em;
+  color: rgb(17, 17, 17);
+  text-shadow: 
+  0 0 5px black, 
+  0 0 10px yellow, 
+  0 0 15px yellow, 
+  0 0 20px rgb(182, 159, 33), 
+  0 0 30px rgb(255, 242, 67), 
+  0 0 40px rgb(19, 19, 6), 
+  0 0 55px yellow, 
+  /* 0 0 75px rgb(255, 255, 255); */
+}
+
+/* .star:hover {
+  margin-top: 1px;
+  color:red; 
+  text-shadow: 
+  0 0 5px rgb(184, 142, 135), 
+  0 0 10px yellow, 
+  0 0 15px rgb(204, 204, 83), 
+  0 0 20px yellow, 
+  0 0 30px yellow, 
+  0 0 40px yellow, 
+  0 0 55px yellow, 
+  0 0 75px yellow;
+ 
+} */
+/* css effects  for pagination */
+.pagination {
+  justify-content: center;
+}
+
+.page-item { 
+  padding: 1px !important;
+}                
+.page-link{
+  background-color:hsl(196, 77%, 60%) !important;
+  height: 50px !important;
+}
+.page-link:hover {background-color: #085672 !important;
+
+}
+.pagination .page-item.active .page-link {
+  justify-content: center;
+ box-shadow:0 2px 8px 0 rgba(0,0,0,0.75), 0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.body{background: #f3f3f3;}
+
+
